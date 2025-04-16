@@ -1,0 +1,16 @@
+create ec2
+
+sudo yum install httpd
+cd /var/ww/html
+ls
+
+sudo -i
+
+sudo cat >index.html
+type what you want
+ctrl+D
+
+systemctl start httpd
+systemctl enable httpd
+
+launch from IP ec2
