@@ -1,0 +1,23 @@
+Aws website 
+S1: Create ec2 instance
+S2:Open cmd -> type ssh -i (pemfilepath) ec2-user@ipofinstance 
+S3:sudo su - 
+       whomai
+       exit 
+       whoami
+S4:go to free css and select website add from download pg
+S5:wget (linkofwebsite)
+S6:ls 
+       Unzip (filepath)
+       ls
+S7:installing httpd
+      sudo yum install -y httpd
+S8:sudo systemctl start httpd
+sudo systemctl status httpd
+S9:sudo mv (filepathofunzippedfile) /var/html
+S10:sudo su -
+S11:cd /var/www/html
+S12:LL(insmall)
+S13:mv (filename)/* .
+S14:(restart)  
+        systemctl restart httpd
