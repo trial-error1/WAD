@@ -1,0 +1,6 @@
+vm1
+scp sample.txt vagrant@{ip from ipconfig}:/home/vagrant
+
+
+vm2
+cat sample.txt
