@@ -1,0 +1,20 @@
+Giit Push.
+S1:Ins Git
+S2:Open VS
+Create Folder WAD
+Create Folder Ass2.
+Open Ass 2
+Open Terminal
+Mkdir Part-a 
+cd Part-a
+S4:Create repo. OF Github
+S5: Create neu File in Part-a
+File.txt→ Write anything
+S6:Terminal
+git init
+ git add .
+ git status
+git remote add origin "URL-Repo" 
+git commit 
+git Status 
+git push -U origin master
