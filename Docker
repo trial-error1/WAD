@@ -1,0 +1,16 @@
+Docker container env
+S1:Install Docker Desktop 
+S2:Open vs
+extension docker 
+Open folder (insmallcase)
+Create file Dockerfile
+Create file name.js
+S3:In JS file console.log(“Name:Abc”);
+S4:In Docker file 
+FROM node:alpine
+COPY . /foldername
+CMD node /foldername/file.js 
+S5: Go to terminal 
+Docker —v
+node file.je
+docker build -t foldername
