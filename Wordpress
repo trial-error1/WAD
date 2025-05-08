@@ -1,0 +1,13 @@
+vagrant up
+vagrant ssh
+sudo -i
+vi /etc/hostname
+i
+wordpress
+esc :wq!
+
+hostname wordpress
+sudo -i
+sudo apt update
+
+(go to ubuntu wordpress install official ubuntu wwebsite for further ssteps)
