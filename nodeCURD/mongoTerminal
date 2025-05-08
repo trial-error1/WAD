@@ -1,0 +1,5 @@
+show dbs
+use student
+
+db.createCollection('profile')
+db.profile.insertOne({name:"Rohit", email:"abc@gmail.com", city:"Pune"})
