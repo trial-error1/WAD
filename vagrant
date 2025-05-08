@@ -1,6 +1,18 @@
-vm1
-scp sample.txt vagrant@{ip from ipconfig}:/home/vagrant
+VM1
+vagrant up
+vagrant ssh
+vi abc.txt
+i
+(type)
+(save)     esc :wq
+ls
+scp abc.txt vagrant@IP:/home/vagrant
 
 
-vm2
-cat sample.txt
+VM2
+vagrant up
+vagrant ssh
+ifconfig
+(copy IP address from vagrantfile)
+ls
+cat abc.txt
