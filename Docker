@@ -1,4 +1,10 @@
-sudo install docker.io
+lsb_release_a
+sudo apt -get update
+
+sudo apt install docker.io
+
+sudo usermod -aG docker #USER
+
 sudo docker pull openjdk
 sudo docker images
 sudo docker run -it -d openjdk
