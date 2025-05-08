@@ -1,0 +1,15 @@
+mkdir CRUD
+>> cd CRUD
+>> npm init -y
+
+npm install express mongoose
+
+node server.js
+
+url : http://localhost:5000/api/users
+
+POST body raw = {
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com"
+}
+
