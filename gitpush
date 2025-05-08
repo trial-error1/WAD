@@ -1,0 +1,12 @@
+git init
+git add .
+git status
+git remote add origin "repolink"
+git commit -m "first commit"
+git status
+git push -u origin master
+
+start
+cred. manager
+windows cred 
+remove github ones
